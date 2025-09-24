@@ -1,7 +1,7 @@
 <?php
 require_once "../classes/library.php";
 $bookObj = new Book();
-
+ 
 if($_SERVER["REQUEST_METHOD"]=="GET"){
   if(isset($_GET["id"])){
     $bid = trim(htmlspecialchars($_GET["id"]));

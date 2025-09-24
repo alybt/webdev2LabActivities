@@ -7,7 +7,7 @@ class Book extends Database {
     public $author="";
     public $genre="";
     public $publication_year="";
-    
+     
 
     public function addBook(){
         $sql = "INSERT INTO book(title, author,genre,publication_year) VALUE(:title, :author, :genre, :publication_year)";

@@ -5,7 +5,7 @@ class Database{
     private $username = "root";
     private $password = "";
     private $dbname = "library";
-    
+     
     protected $conn;
 
     public function connect(){

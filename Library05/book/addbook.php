@@ -2,7 +2,7 @@
 require_once "../classes/library.php";
 $bookObj = new Book();
 
-$book = [];
+$book = []; 
 $errors= [];
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $book["title"] = trim(htmlspecialchars($_POST["title"]));
